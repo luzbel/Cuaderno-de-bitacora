@@ -17,7 +17,8 @@ url                      : https://luzbel.github.io
 baseurl                  : /minimal-mistakes
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 repository               : luzbel/minimal-mistakes
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# path of fallback teaser image, e.g. "/assets/images/
+teaser                   : "/assets/images/Luzbel_Retiro.512px.JPG"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -63,7 +64,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+# Open Graph/Twitter default site image
+og_image                 : "/assets/images/Luzbel_Retiro.512px.JPG"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -82,7 +84,7 @@ analytics:
 author:
   name             : ""
   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  avatar           : 
+  avatar           : https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAjTAAAAJDRhYzNlOGNkLWI0NjAtNDkwYS1iZDE0LWM1MzZkY2VmYzllNQ.jpg
   bio              : "Un señor que se gana la vida ayudándote a gestionar tus APIs"
   # "Entre tu aplicación y el servicio al que quieres llamar"
   location         : 
