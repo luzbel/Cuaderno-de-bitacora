@@ -6,14 +6,17 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
+locale                   : "es"
+title                    : "Cuaderno de bitácora"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "luzbel"
+description              : "Mi cuaderno de bitácora, donde principalmente hablo de gestión de APIs."
+# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://luzbel.github.io
+# the subpath of your site, e.g. "/blog"
+baseurl                  : /minimal-mistakes
+# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : luzbel/minimal-mistakes
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -55,7 +58,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : UCZ443
 facebook:
   username               :
   app_id                 :
@@ -174,7 +177,8 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid
 
 
 # Plugins
