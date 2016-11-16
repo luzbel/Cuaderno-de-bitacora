@@ -1,0 +1,13 @@
+---
+layout: archive
+permalink: /categories/vigasocosdl
+title: "Posts: VigasocoSDL"
+author_profile: true
+---
+
+{% assign posts = site.posts | where: "categories", "VigasocoSDL" %}
+
+ <!-- <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2> -->
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
