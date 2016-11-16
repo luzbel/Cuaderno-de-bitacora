@@ -1,19 +1,14 @@
 ---
 layout: archive
 permalink: /categories/apim
-title: "Posts by Category"
+title: "Posts: Gestión de APIs"
 author_profile: true
 ---
 
-{% assign apim_posts = site.posts | where: "categories", "apim" %}
+{% assign posts = site.posts | where: "categories", "apim" %}
 
-{% include group-by-array collection=apim_posts field="categories" %}
-
-
-{% for category in group_names | where: "categories","apim" %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+ <!-- <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2> -->
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
-{% endfor %}
+
