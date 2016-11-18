@@ -6,7 +6,7 @@ tags:
   - Jekyll
   - Cloud9
   - gh-pages
-excerpt: "Probando temas <minimal mistakes> de Jekyll en Cloud9"
+excerpt: "Probando temas minimal mistakes de Jekyll en Cloud9"
 ---
 
 
