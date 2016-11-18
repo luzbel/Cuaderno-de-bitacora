@@ -9,14 +9,16 @@ tags:
 excerpt: "Probando temas minimal mistakes de Jekyll en Cloud9"
 ---
 
+Pendiente
 
+<!--
 Después de probar con codinfox-lanyon, ahora pruebo con otro tema, que parece más elaborado
 
 * Fork de [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), un tema con licencia MIT y muy buena pinta
 * Ir a tus repositorios en Cloud9
   * Clonar el repositorio minimal-mistakes que acabas de crear en GitHub
 * Ejecutar en la consola de Cloud9
-{% highlight bash %}
+  * {% highlight bash %}
 ~/workspace $ gem install jekyll bundler
 ~/workspace (master) $ git checkout gh-pages
 ~/workspace (gh-pages) $ cat >> Gemfile
@@ -37,6 +39,7 @@ baseurl: ""
   * Con el Gemfile con los valores indicados en la [guía rápida](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) de inicio del tema, para cuando se clona de GitHub, los enlaces apuntan a direcciones erróneas (quizás pensando en que el tema lo sueles instalar como página de usuario y no como página de un repositorio). Por cierto, se usa Jekyll 3.3.0 en vez de la 3.3.1 de las otras configuraciones
 
 Siguiendo la recomendación, para no tener que acordarse del comando cada vez, genero una configuración de ejecución en Cloud9
+
 {% highlight bash %}
 JEKYLL_ENV=production bundle exec jekyll serve --port $PORT --host $IP --config _config.yml,_cloud9_config.yml
 {% highlight %}
@@ -47,3 +50,4 @@ JEKYLL_ENV=production bundle exec jekyll serve --port $PORT --host $IP --config 
   * De todos modos, si se deja el Gemfile que viene al clonar el repo funciona. Casi mejor no hacer caso a la guía de inicio y usarlo tal cual.
 2. Ya que modifico las instrucciones, quizás esto debería ir en una _page y no en un _post
 3. Repetir los pasos, por si funciona por combinación de factores y usando el bundle inicial, no.
+-->
