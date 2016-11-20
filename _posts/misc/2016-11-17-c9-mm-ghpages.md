@@ -65,5 +65,17 @@ JEKYLL_ENV=production bundle exec jekyll serve --port $PORT --host $IP --config 
 <p>error on line 12 at column 85: EntityRef: expecting ';'</p>
 <p><bold>Below is a rendering of the page up to the first error.</bold></p>
 </div>
+5. Intentar que los permalink de los social-feeds se generen en base al page.title, y no tener que meter el valor a fuego
+  * Cosas del tipo "permalink: /social-feeds/:title/rss.xml" no funciona
+  * Trucos de este tipo tampoco :slight_frown:
+{% highlight yaml %}
+---
+layout: social-feed
+title: email
+permalink: /social-feeds/!TITLE!/a.xml
+---
+
+{{ page.permalink| replace: '!TITLE!', page.title }}
+{% endhighlight %}
 
 

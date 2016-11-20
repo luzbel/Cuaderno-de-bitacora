@@ -1,7 +1,7 @@
 ---
 title: "El GraphQL API de GitHub"
 categories:
-  - apim
+  - APIm
 tags:
   - APIm
   - GraphQL

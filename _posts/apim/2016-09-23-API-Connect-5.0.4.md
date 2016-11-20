@@ -1,7 +1,7 @@
 ---
 title: "Novedades IBM API Connect 5.0.4"
 categories:
-  - apim
+  - APIm
 tags:
   - APIm
   - IBM

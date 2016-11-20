@@ -1,0 +1,11 @@
+---
+layout: archive
+title: "Posts: VigasocoSDL"
+author_profile: true
+---
+
+{% assign posts = site.posts | where: "categories", page.category %}
+
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}

@@ -1,14 +1,7 @@
 ---
-layout: archive
+layout: category-archive-filtered
 permalink: /categories/apim
 title: "Posts: Gestión de APIs"
 author_profile: true
+category: APIm
 ---
-
-{% assign posts = site.posts | where: "categories", "apim" %}
-
- <!-- <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2> -->
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-
