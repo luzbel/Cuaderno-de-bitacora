@@ -85,5 +85,9 @@ JEKYLL_ENV=production bundle exec jekyll serve --port $PORT --host $IP --config 
 7. ~~Si un bloque de código va en una sublista y lleva tags html o xml, no se ve bien.~~ 
   * Ver [solución](https://github.com/gettalong/kramdown/issues/123), vamos, probar a meter espacios hasta que funcione :smirk:
 8. Si uso raw para no sustituir ejemplos de código en una sublista, se descuadra la lista
-
-
+9. Ver la manera de ajustar los teaser al tamaño del div de los posts relacionados
+10. Ver manera de tener posts relacionados por tags (y no solo los ultimos) en gh-pages
+11. ajustar el teaser de 3scale, que es mas corto y descuadra el listado de post relacionados
+12. ajustar el teaser de wso2 que se corta
+14. subir _data/apim/listado-productos.yaml y crear página
+15. por si acaso

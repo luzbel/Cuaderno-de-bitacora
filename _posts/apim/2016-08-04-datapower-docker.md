@@ -9,6 +9,8 @@ tags:
   - Docker
   - Datapower
 excerpt: "Beta de la versión Docker de Datapower"
+header:
+  teaser: /assets/images/apiconnect_logo.png
 ---
 
 Me entero por [twitter](https://twitter.com/UCZ443/status/760591394645872640) de que IBM ha subido a [Docker Hub](https://hub.docker.com/r/ibmcom/datapower/) una imagen de su Datapower. Su versión anterior estaba publicada en [GitHub](https://github.com/ibm-datapower/datapower-labs)

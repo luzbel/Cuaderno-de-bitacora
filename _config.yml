@@ -18,7 +18,9 @@ baseurl                  : /minimal-mistakes
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 repository               : luzbel/minimal-mistakes
 # path of fallback teaser image, e.g. "/assets/images/
-teaser                   : "/assets/images/Luzbel_Retiro.512px.JPG"
+teaser                   : "/assets/images/Luzbel_Retiro.teaser.JPG"
+#teaser                   : "/assets/images/Luzbel_Retiro.512px.JPG"
+#teaser                   : "/assets/images/1.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -169,7 +171,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # Sass/SCSS
 sass:

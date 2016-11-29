@@ -7,6 +7,8 @@ tags:
   - IBM
   - APIConnect
 excerpt: "Lista de novedades de IBM API Management V5 (ahora conocido como API Connect)"
+header:
+  teaser: /assets/images/apiconnect_logo.png
 ---
 
 Lista de [novedades](http://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.overview.doc/overview_whatsnew.html?lang=en) de IBM API Management V5 (ahora conocido como API Connect) 

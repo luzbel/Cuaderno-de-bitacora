@@ -7,6 +7,8 @@ tags:
   - IBM
   - APIConnect
 excerpt: "Lista de novedades de IBM API Connect 5.0.5 incluyendo la sindicación de portales"
+header:
+  teaser: /assets/images/apiconnect_logo.png
 ---
 
 Lista de [novedades](http://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.overview.doc/overview_whatsnew.html?lang=en) de IBM API Connect 5.0.5 

@@ -7,6 +7,8 @@ tags:
   - IBM
   - APIConnect
 excerpt: "Novedades API Connect 5.0.4"
+header:
+  teaser: /assets/images/apiconnect_logo.png
 ---
 
 Ya está disponible para descarga la versión 5.0.4 de IBM API Connect, en la que aparte de muchas correcciones de bugs, aparecen estas novedades:
