@@ -14,9 +14,9 @@ description              : "Mi cuaderno de bitácora, donde principalmente hablo
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : https://luzbel.github.io
 # the subpath of your site, e.g. "/blog"
-baseurl                  : /minimal-mistakes
+baseurl                  : /Cuaderno-de-bitacora
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-repository               : luzbel/minimal-mistakes
+repository               : luzbel/Cuaderno-de-bitacora
 # path of fallback teaser image, e.g. "/assets/images/
 teaser                   : "/assets/images/Luzbel_Retiro.teaser.JPG"
 #teaser                   : "/assets/images/Luzbel_Retiro.512px.JPG"
