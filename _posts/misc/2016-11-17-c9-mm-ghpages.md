@@ -38,6 +38,20 @@ Siguiendo la recomendación, para no tener que acordarse del comando cada vez, g
 JEKYLL_ENV=production bundle exec jekyll serve --port $PORT --host $IP --config _config.yml,_cloud9_config.yml
 {% endhighlight %}
 
+### 29/11/2016
+He renombrado el repositorio a Cuaderno-de-bitacora, así que aparte de actualizar el _config.yml, en cloud9 he actualizado el remote
+{% highlight bash %}
+git remote set-url origin https://github.com/luzbel/Cuaderno-de-bitacora.git
+{% endhighlight %}
+
+Es curioso, que si se hace un push antes de realizar este cambio, no falla e incluso te avisa.
+
+### 30/11/2016
+
+Activo un fondo en el encabezado de cada post para que no sea tan sosa la página
+Activo los comentarios en G+ para los posts
+
+
 # Puntos pendientes
 
 
@@ -90,4 +104,6 @@ JEKYLL_ENV=production bundle exec jekyll serve --port $PORT --host $IP --config 
 11. ajustar el teaser de 3scale, que es mas corto y descuadra el listado de post relacionados
 12. ajustar el teaser de wso2 que se corta
 14. subir _data/apim/listado-productos.yaml y crear página
-15. por si acaso
+15. Ver https://github.com/christian-fei/Simple-Jekyll-Search
+16. Añadir analíticas
+17. Añadir SEO
