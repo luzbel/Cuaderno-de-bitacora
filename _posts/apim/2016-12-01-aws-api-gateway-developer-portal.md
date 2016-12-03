@@ -18,6 +18,7 @@ Ahora la situación ha cambiado y recientemente Amazon ha liberado una [implemen
 
 Justo cuando el otro día me preguntaba que [aplicaciones reales]({% post_url serverless/2016-11-29-ejemplo-app-chat-serverless %}) se podían construir ya con arquitectura serverles, me resulta bastante interesante que el portal se trate de una aplicación "serverless" construida sobre su, también recientemente liberada, librería [aws-serverless-express](https://github.com/awslabs/aws-serverless-express), la cual permite utilizar AWS Lambda y Amazon API Gateway para responder a peticiones web o APIs usando Node (O sea, construir aplicaciones, servicios webs y APIs RESTful usando un Express serverless).
 Aparte de la curiosidad técnica y el probable ahorro de coste, volviendo a revisar la plataforma, lo que también hace más interesante a AWS como plataforma de gestión de APIs a considerar es:
+
 * Se pueden crear las APIs a partir de Swagger
 * Los planes de uso permiten establecer límites de consumo y empiezan a parecer un gobierno y gestión de APIs más elaborado
 * Y lo más importante, y dónde veo que puede sacar ventaja a otros competidores, **Monetización**: El AWS API Gateway se integra con el AWS *Marketplace*, y no solo tu API aparece en el *market*, es que también puedes cobrar por su uso al tener acceso a toda la información de consumo. Con IBM API Connect y Bluemix, tu API puede aparecer en el *marketplace* de Bluemix, pero diría que el cobro es algo que tienes que gestionar tu directamente con tus consumidores. 
