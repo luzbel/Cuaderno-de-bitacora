@@ -1,0 +1,32 @@
+# Otros autores
+VigasocoSDL:
+  name             : "VigasocoSDL"
+  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : https://sites.google.com/site/vigasocosdl/home/dreamcast/VigasocoSDL.DC.VGA.PNG
+  bio              : "Llevando la abadía del crimen a muchas plataformas"
+  # "Entre tu aplicación y el servicio al que quieres llamar"
+  location         : 
+  email            : http://www.google.com/recaptcha/mailhide/d?k=01Vd8CyMLiY59mtqR3255eeg==&c=R1a-PwLQBkE8kHUxe94so8Q9AyUHqUCaHCeIA835vpk=
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : luzbel/vigasocosdl-la-abadia-del-crimen
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : VigasocoSDL
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
