@@ -2,7 +2,7 @@
 title: "Aviso legal"
 excerpt: "Información sobre el uso de las cookies"
 sitemap: false
-permalink: /cookies-info.html
+permalink: /acerca-de/cookies-info.html
 layout: single
 author_profile: false
 ---

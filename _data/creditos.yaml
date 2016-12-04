@@ -1,0 +1,10 @@
+- nombre: Tema
+  descripcion: "Minimal Mistakes"
+  url: https://mmistakes.github.io/minimal-mistakes/
+- nombre: Imagen Alfredo Landa 
+  atribucion: De Arturo Espinosa - <a rel="nofollow" class="external free" href="https://www.flickr.com/photos/espinosa_rosique/5991527503/in/photolist-9rFBMB-a8s9ok">https://www.flickr.com/photos/espinosa_rosique/5991527503/in/photolist-9rFBMB-a8s9ok</a>, <a href="http://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=32239802">Enlace</a>
+- nombre: Imagen ángel caído
+  atribucion: <a title="By Magnificus (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ALuzbel_Retiro.JPG"><img width="256" alt="Luzbel Retiro" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Luzbel_Retiro.JPG/256px-Luzbel_Retiro.JPG"/></a>
+- nombre: Jekyll
+  descripcion: Jekyll
+  url: https://jekyllrb.com/

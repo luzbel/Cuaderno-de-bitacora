@@ -1,0 +1,46 @@
+- nombre: IBM API Connect
+  url: http://www-03.ibm.com/software/products/en/api-connect
+- nombre: WSO2 API Manager
+  url: http://wso2.com/products/api-manager/
+- nombre: Mulesoft
+  url: http://www.mulesoft.com/platform/api/manager
+- nombre: APIman
+  url: http://www.apiman.io/latest/
+- nombre: ApiAxle
+  url: http://apiaxle.com/
+- nombre: Tyk
+  url: https://tyk.io/
+- nombre: Kong (Mashape)
+  url: https://getkong.org/
+- nombre: 3scale
+  url: http://www.3scale.net/
+- nombre: Apigee
+  url: http://apigee.com/about/
+- nombre: CA Layer 7
+  url: http://www.ca.com/us/products/api-management.aspx
+- nombre: Microsoft 
+  url: http://azure.microsoft.com/es-es/services/api-management/
+- nombre: Axway
+  url: http://www.axway.com/products-solutions/api-management
+- nombre: Oracle
+  url: http://www.oracle.com/us/products/middleware/soa/api-management/overview/index.html
+- nombre: Tibco Mashery
+  url: http://www.mashery.com/api-management
+- nombre: SOA Software (Akana)
+  url: https://www.soa.com/solution/api-management
+- nombre: Tibco API Exchange
+  url: http://www.tibco.com/products/automation/api-management
+- nombre: Software AG (WebMethods)
+  url: http://www.softwareag.com/corporate/products/webmethods_integration/api/overview/default.asp
+- nombre: Amazon
+  url: http://aws.amazon.com/es/api-gateway/
+- nombre: APIversity
+  url: http://www.apiversity.com/
+- nombre: ZUP
+  url: http://www.zup.com.br/product/APImanager/apimanager.html
+- nombre: API Success Suite
+  url: http://www.wavemaker.com/api-success/
+- nombre: Torry Harris Business Solutions API Connect
+  url: https://apiconnect.io/
+- nombre: Varnish API Engine
+  url: https://www.varnish-software.com/products/varnish-api-engine-2/

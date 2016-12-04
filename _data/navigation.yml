@@ -2,15 +2,69 @@
 main:
   - title: "Gestión de APIs"
     url: "/categories/apim"
+    children:
+      - title: "Blog"
+        url: "/categories/apim"
+      - title: "Listado productos"
+        url: "/apim/listado"
+  - title: "Serverless"
+    url: "/categories/serverless"
+    children:
+      - title: "Blog"
+        url: "/categories/serverless"
   - title: "VigasocoSDL"
     url: "/categories/vigasocosdl" 
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    children:
+      - title: "Blog"
+        url: "/categories/vigasocosdl"
+  - title: "Miscelánea"
+    url: "/categories/misc" 
+    children:
+      - title: "Blog"
+        url: "/categories/misc"
+  - title: "Política de cookies"
+    url: "/acerca-de/cookies-info.html"
+    children:
+      - title: "Política de cookies"
+        url: "/acerca-de/cookies-info.html"
+  - title: "Créditos"
+    url: "/acerca-de/creditos.html"
+    children:
+      - title: "Créditos"
+        url: "/acerca-de/creditos.html"
+  - title: "Acerca de ..."
+    url: "/acerca-de/acerca-de.html"
+    children:
+      - title: "Acerca de ..."
+        url: "/acerca-de/acerca-de.html"
+
+altnav:
+  - title: "Blog"
+    url: /
+    children:
+      - title: "Gestión de APIs"
+        url: /categories/apim
+      - title: "Serverless"
+        url: /categories/serverless
+      - title: "VigasocoSDL"
+        url: /categories/vigasocosdl 
+      - title: "Miscelánea"
+        url: /categories/misc 
+
+  - title: "Gestión de APIs"
+    url: /categories/apim
+    children:
+      - title: "Listado de productos"
+        url: /apim/listado
+      - title: "Listado de agregadores"
+        url: /apim/listado-agregadores
+          
+  - title: "Acerca de la página"
+#    url: /categories/apim
+    children:
+      - title: "Política de cookies"
+        url: /acerca-de/cookies-info.html
+      - title: "Créditos"
+        url: /acerca-de/creditos.html
+      - title: "Acerca de ..."
+        url: /acerca-de/acerca-de.html
