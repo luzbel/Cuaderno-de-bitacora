@@ -1,12 +1,14 @@
 ---
 title: "Aplicación chat serverless"
 categories:
-  - serverless
+  - Serverless
 tags:
   - Serverless
   - AWSLambda
   
 excerpt: "Aplicación chat serverless implementada con AWS Lambda"
+header:
+  teaser: /assets/images/Alfredo_Landa.teaser.jpg
 ---
 
 ¿te has preguntado alguna vez que se puede hacer hoy en día con serverless fuera de los típicos ejemplos de los tutoriales?

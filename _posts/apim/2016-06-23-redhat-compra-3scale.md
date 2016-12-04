@@ -7,6 +7,8 @@ tags:
   - RedHat
   - 3scale
 excerpt: "RedHat compra 3scale, el futuro de apiman y la competencia a WSO2"
+header:
+  teaser: /assets/images/3scale-logo-red-hat.teaser.png
 ---
 
 Ya me parecía sospechosa hace tiempo tanta colaboración entre RedHat y 3scale, sobre todo en el ámbito de Openshift 

@@ -7,6 +7,8 @@ tags:
   - 3scale
   - Oracle
 excerpt: "3scale disponible en el 'Oracle Marketplace'"
+header:
+  teaser: /assets/images/3scale-logo-red-hat.teaser.png
 ---
 
 [Compartido inicialmente por 3scale](https://plus.google.com/+3scaleNet/posts/6iESZLeadR5)

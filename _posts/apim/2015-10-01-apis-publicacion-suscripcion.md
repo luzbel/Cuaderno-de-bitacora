@@ -9,6 +9,8 @@ tags:
   - Websockets
   - mqtt
 excerpt: "Las APIs no son solo petición/respuesta. Tenemos que considerar otros paradigmas como publicación/suscripción"
+header:
+  teaser: /assets/images/3scale-logo-red-hat.teaser.png
 ---
 
 Mucha gente asocia APIs a HTTP/REST y protocolos restringidos a petición/respuesta. Incluso lo he oído a algún fabricante de soluciones de gestión de APIs (para justificar las carencias de su producto :wink: )

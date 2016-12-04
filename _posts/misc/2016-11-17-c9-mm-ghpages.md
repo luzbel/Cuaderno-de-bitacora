@@ -103,7 +103,18 @@ Activo los comentarios en G+ para los posts
 10. Ver manera de tener posts relacionados por tags (y no solo los ultimos) en gh-pages
 11. ajustar el teaser de 3scale, que es mas corto y descuadra el listado de post relacionados
 12. ajustar el teaser de wso2 que se corta
-14. subir _data/apim/listado-productos.yaml y crear página
+14. ~~subir _data/apim/listado-productos.yaml y crear página~~
+  * hay que poner layout de galeria o similar y poner logo producto segun configurado en el _data
 15. Ver https://github.com/christian-fei/Simple-Jekyll-Search
-16. Añadir analíticas
+16. ~~Añadir analíticas~~ ... revisar que va
 17. Añadir SEO
+18. ver si el script de cookie-consent en el include debería ir con absolute_url y no con baseurl
+19. ~~quitar "." al final del texto de "Mas informacion." de cookie consent~~
+20. ~~ver como quedar cambiar "Cerrar" por "aceptar y cerrar" en cookie consent~~
+21. ~~poner página con mencion a la autoria de las imagenes usadas de wikipedia~~
+22. actualizar avatar , email y otros datos de _data/authors.yml
+23. mover este TODO a issues de GitHub
+24. he cambiado ".author__avatar img border-radius" a lo bestia en _sass/_sidebar.scss Habría que ponerlo en un css, para poder sincronizar mejor con futuros cambios del tema
+
+
+

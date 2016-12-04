@@ -7,6 +7,8 @@ tags:
   - 3scale
   - PSD2
 excerpt: "La comisión europea obliga a los bancos a proporcionar acceso mediante APIs como parte de la directiva de servicios de pago (PSD2)"
+header:
+  teaser: /assets/images/3scale-logo-red-hat.teaser.png
 ---
 
 [Compartido inicialmente por 3scale](https://plus.google.com/+3scaleNet/posts/eMYxVJt9B8e)

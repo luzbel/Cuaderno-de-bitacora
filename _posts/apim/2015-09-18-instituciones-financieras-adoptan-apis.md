@@ -7,6 +7,8 @@ tags:
   - 3scale
   - PSD2
 excerpt: "El miedo a la PSD2 y como implementar APIs por parte de los bancos"
+header:
+  teaser: /assets/images/3scale-logo-red-hat.teaser.png
 ---
 
 [Compartido inicialmente por 3scale](https://plus.google.com/+3scaleNet/posts/2imhhcL2PA2)

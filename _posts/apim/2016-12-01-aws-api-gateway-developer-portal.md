@@ -11,6 +11,8 @@ tags:
   - ApiPortal
   - ApiGateway
 excerpt: "Amazon mejora su oferta de gestión de APIs al incorporar un portal del desarrollador"
+header:
+  teaser: /assets/images/AmazonWebservices_Logo.svg
 ---
 
 No consideraba al API Gateway de Amazon una solución completa de gestión de APIs, ya que cuando lo ví en el momento de su salida, se trataba de solo un gateway y parecía muy orientado al mundo AWS. 
