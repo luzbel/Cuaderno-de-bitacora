@@ -27,6 +27,7 @@ El caso es que no hay a día de hoy un agregador de referencia, y todo el que ha
 Lo que quiero decir es que los agregadores tienen que dejar de ser un mero listado de APIs públicas y pasar a ser mercados completos donde suscribirse y pagar en un único punto APIs de diferentes proveedores, del mismo modo que pasa con las tiendas de aplicaciones de iOS, Android o Microsoft. 
 
 En esta línea veo algunos movimientos incompletos:
+
 - En Bluemix antes se podía añadir un API gestionada en "API Connect" en el catálogo de Bluemix, pero parece que ya no se puede. Aunque todavía existiese esa posibilidad, hay varios puntos a considerar para que esto sea útil:
   - El cobro debería realizarse contra la cuenta de Bluemix, y que este hiciese de intermediario con el proveedor del API.
   - Se debería gestionar el alcance de la publicación. Si, por ejemplo, estoy en un bluemix dedicado, debería poder decidir si mis APIs son privadas y sólo deben aparecer en el catálogo de mi bluemix dedicado, o si son públicas y también las quiero añadir al catálogo del Bluemix público.
