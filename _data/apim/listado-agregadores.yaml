@@ -7,3 +7,6 @@
 - nombre: APIs.io
   url: http://apis.io/
   descripcion: Patrocinado por 3scale y [Api Evangelist](http://apievangelist.com/), busca en la web APIs descritas con el [formato APIs.json](http://apisjson.org/).
+- nombre: "AWS MarketPlace"
+  url: https://aws.amazon.com/marketplace/saas 
+  descripcion: No estoy muy seguro de incluir al *AWS MarketPlace* como un agregador de APIs, pero al fin y al cabo te encuentras APIs como la ["Geocode API"](https://aws.amazon.com/marketplace/pp/B01MF8N3OD?ref_=%22saas_products_all%22_B01MF8N3OD_16) de "Pitney Bowes".
