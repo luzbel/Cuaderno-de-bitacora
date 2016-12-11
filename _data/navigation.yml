@@ -6,7 +6,9 @@ main:
       - title: "Blog"
         url: "/categories/apim"
       - title: "Listado productos"
-        url: "/apim/listado"
+        url: "/apim/listado-productos-apis"
+      - title: "Listado agregadores"
+        url: "/apim/listado-agregadores-apis"
   - title: "Serverless"
     url: "/categories/serverless"
     children:
@@ -55,9 +57,9 @@ altnav:
     url: /categories/apim
     children:
       - title: "Listado de productos"
-        url: /apim/listado
+        url: /apim/listado-productos-apis
       - title: "Listado de agregadores"
-        url: /apim/listado-agregadores
+        url: /apim/listado-agregadores-apis
           
   - title: "Acerca de la página"
 #    url: /categories/apim
