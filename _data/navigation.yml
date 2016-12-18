@@ -14,6 +14,8 @@ main:
     children:
       - title: "Blog"
         url: "/categories/serverless"
+      - title: "Listado de plataformas"
+        url: "/serverless/listado-plataformas-serverless"
   - title: "VigasocoSDL"
     url: "/categories/vigasocosdl" 
     children:
@@ -52,6 +54,8 @@ altnav:
         url: /categories/vigasocosdl 
       - title: "Miscelánea"
         url: /categories/misc 
+      - title: "Etiquetas"
+        url: /tags
 
   - title: "Gestión de APIs"
     url: /categories/apim
@@ -60,7 +64,13 @@ altnav:
         url: /apim/listado-productos-apis
       - title: "Listado de agregadores"
         url: /apim/listado-agregadores-apis
-          
+        
+  - title: "Serverless"
+    url: /categories/serverless
+    children:
+      - title: "Listado de plataformas"
+        url: /serverless/listado-plataformas-serverless
+           
   - title: "Acerca de la página"
 #    url: /categories/apim
     children:
