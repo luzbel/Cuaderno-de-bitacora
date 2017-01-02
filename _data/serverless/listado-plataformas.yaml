@@ -4,3 +4,5 @@
   url: http://openwhisk.org/
 - nombre: Google Cloud Functions
   url: https://cloud.google.com/functions/
+- nombre: Spring Cloud Function
+  url: https://github.com/markfisher/spring-cloud-function
