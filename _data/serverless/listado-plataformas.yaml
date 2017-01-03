@@ -1,14 +1,24 @@
 - nombre: AWS Lambda
   url: https://aws.amazon.com/lambda/
+  descripcion: AWS Lambda
 - nombre: Apache OpenWhisk
   url: http://openwhisk.org/
+  descripcion: Apache OpenWhisk
 - nombre: Google Cloud Functions
   url: https://cloud.google.com/functions/
+  descripcion: Google Cloud Functions
 - nombre: Spring Cloud Function
   url: https://github.com/markfisher/spring-cloud-function
+  descripcion: Spring Cloud Function
 - nombre: Skippbox Kubeless
   url: https://github.com/skippbox/kubeless
+  descripcion: kubeless is a proof of concept to develop a serverless framework for Kubernetes.
 - nombre: Platform9 fission 
   url: http://fission.io/
+  descripcion: Fission is a framework for serverless functions on Kubernetes.
 - nombre: Fabrik9 funktion
   url: https://github.com/fabric8io/funktion
+  descripcion: Funktion is an open source event driven lambda style programming model on top of Kubernetes.
+- nombre: Gestalt Lambda
+  url: http://www.galacticfog.com/
+  descripcion: Usa Apache Mesos
