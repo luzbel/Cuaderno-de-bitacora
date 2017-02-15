@@ -10,6 +10,11 @@ tags:
 excerpt: "Probando minishift"
 ---
 
+He formateado algo mejor las notas en esta [entrada][guia-minishift-post]
+{: .notice--info}
+
+[guia-minishift-post]: {{ "" | absolute_url }}{% post_url misc/2017/02/2017-02-15-guia-minishift-en-w10 %}
+
 Nunca me ha gustado ir instalando cosas para probar hasta dejar el sistema inservible.
 Ahora que el soporte a Docker en W10 ha mejorado, pensaba que manteniendo contenedores para cada experimento la experiencia mejoraría. No tengo todavía conclusiones, pero voy a seguir probando alternativas. Así que aquí van mis notas sobre la instalación de minishift (Un OpenShift reducido) sobre Hyper-V en un W10.
 
@@ -37,7 +42,7 @@ c:\ cd \minishift
 c:\minishift setpath
 ```
 
-como parece que los valores por defecto (HyperV , 20g disco y 2megas RAM) valen , arranco directamente
+como parece que los valores por defecto (HyperV , 20g disco y 2 gigas RAM) valen , arranco directamente
 
 ```
 c:\minishift minishift start
@@ -169,23 +174,18 @@ c:\minishift>
 
 
 cambio otra vez el setpath (ya podian avisarlo al principio)
+
 ```
 c:\minishift>more setpath.bat
 set PATH=%PATH%;c:\minishift;C:\Users\pedroparra\.minishift\cache\oc\v1.4.1
 ```
 
 tarda en arrancar, pero el ejemplo en node va
-````
+
+```
 oc new-app https://github.com/openshift/nodejs-ex -l name=myapp
 oc expose svc/nodejs-ex
 ```
 y se puede acceder en http://nodejs-ex-myproject.{IP}.xip.io
 
 la consola de openshift está en https://{IP}:8443/console  developer/developer
-
-
-
-
-
-
-
