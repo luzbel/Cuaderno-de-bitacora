@@ -22,3 +22,6 @@
 - nombre: Gestalt Lambda
   url: http://www.galacticfog.com/
   descripcion: Usa Apache Mesos
+- nombre: Azure Functions
+  url: https://functions.azure.com
+  descripcion: Eventos de proceso con una arquitectura de código sin servidor
