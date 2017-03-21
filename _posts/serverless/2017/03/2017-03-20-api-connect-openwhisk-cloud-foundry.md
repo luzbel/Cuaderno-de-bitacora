@@ -1,5 +1,6 @@
 ---
 title: "IBM API Connect+OpenWhisk+Cloud Foundry en Bluemix"
+modified: 2017-03-21
 categories:
   - Serverless
 tags:
@@ -26,6 +27,10 @@ Cuando llegue este funcionalidad (es lo que tienen los *"coming soon"*, que no s
 * ¿estas APIs correran en Datapower o en el microgateway?
 * Google anunciaba hace tiempo la posibilidad en su nube de que el API Gateway no fuese centralizado y estuviese más pegado a la aplicación ¿cómo se instanciaran estas APIs en Bluemix? ¿podrían correr en un microgateway distinto para cada aplicación y no en un Datapower centralizado? 
 * ¿desaparece con esta nueva funcionalidad la [beta](https://www.ibm.com/blogs/bluemix/2017/01/exposing-openwhisk-restful-apis-api-gateway/) anterior o son funcionalidades diferentes?  
-* La capacidad de *social login* (en el vídeo aparecen Google, Facebook e IBM) es muy interesante. Se supone que en el ecosistema Bluemix MobileFirst lo cubre, pero siempre me ha parecido complejo y demasiada parafernalia para proyectos sencillos. La pregunta es, las autenticaciones y autorizaciones las hará el proveedor que selecciones y me cobrará por ello, pero ¿me cobrará IBM alguna tarifa por la gestión o entrará dentro del coste de las llamadas a APIs o del propio servicio (CF o OpenWhisk)? 
+* La capacidad de *social login* (en el vídeo aparecen Google, Facebook e IBM) es muy interesante.
+  * Se supone que en el ecosistema Bluemix MobileFirst lo cubre, pero siempre me ha parecido complejo y demasiada parafernalia para proyectos sencillos. La pregunta es, las autenticaciones y autorizaciones las hará el proveedor que selecciones y me cobrará por ello, pero ¿me cobrará IBM alguna tarifa por la gestión o entrará dentro del coste de las llamadas a APIs o del propio servicio (CF o OpenWhisk)? 
+  * ¿sólo Google, Facebook e IBM? Aquí hay margen de mejora incluyendo otros proveedores (Twitter, GitHub, etc.) 
+* API Connect destaca sobre otras soluciones en su enfoque de negocio y tratamiento de los APIs como productos. De hecho, el ciudadano de primera categoría en API Connect es el **producto** y no el API. No quiero perder esta nueva facilidad de publicación rápida, pero me gustaría poder luego gestionar estas APIs de forma completa en API Connect y añadirlas a productos, establecer la visibilidad de que organizaciones consumidoras pueden consumir estas APIs, etc. En definitiva, hacer **gestión de APIs**
+  * Esto me lleva a una nueva pregunta. Cuando publico un producto y sus correspondientes APIs en API Connect selecciono en que catálogo (entorno) lo hago y a quién doy acceso a ese producto. ¿en que catálogo se van a publicar las APIs con este nuevo método?
 
 [lecciones-aprendidas-openwhisk-post]: {{ "" | absolute_url }}{% post_url serverless/2017/03/2017-03-20-lecciones-bots %}
