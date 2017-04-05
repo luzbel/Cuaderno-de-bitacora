@@ -120,7 +120,9 @@ Tengo pendiente y en borrador desde hace mucho una entrada sobre la importancia 
 ¡ Bien ! ¡yujuuu! Llevo pidiendo esto desde mi primer contacto con API Connect (cuando aún era IBM API Management v4) 
 
 Como desarrollador de aplicaciones/consumidor de APIs quiero probar primero el API (en un entorno *sandbox* con datos ficticios sin coste para el productor ni para el consumidor de APIs) y luego usarlo de forma real. Esto se resolvía de forma bastante satisfactoria en otros productos (como WSO2 o CA), pero de manera bastante compleja y poca intuitiva para el consumidor de APIs en el producto de IBM (basicamente teníamos que entrar a un portal de sandbox, dar de alta una aplicación y suscribirnos al API, probar y luego volver a entrar en otro portal de producción y volver a crear una aplicación y suscribirse de nuevo al API). El nuevo mecanismo parece más intuitivo y además combina perfectamente con la nueva funcionalidad de tener distintos clústers de gateways en un mismo catálogo. 
- 
+
+## LoopBack 3.0 
+
 > LoopBack 3.0 is now supported by API Designer and command-line tools
 >
 > When you create a new LoopBack project with the API Designer or apic loopback command, you now have the option of creating a LoopBack version 3.0 project. For more information on LoopBack 3.0, see loopback.io.
