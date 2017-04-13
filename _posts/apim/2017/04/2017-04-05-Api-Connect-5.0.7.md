@@ -1,5 +1,6 @@
 ---
 title: "Novedades API Connect 5.0.7"
+modified: 2017-04-13
 categories:
   - APIm
 tags:
@@ -8,6 +9,8 @@ tags:
   - APIConnect
   - SNI
   - OpenShift
+  - OAuth
+  - JWT
 excerpt: "Repaso a la lista de novedades de IBM API Connect 5.0.7"
 header:
   teaser: /assets/images/apiconnect_logo.png
@@ -187,4 +190,29 @@ Se mencionan otros temas de los que he hablado últimamente, por lo que puedes d
 
 [recopilatorio-post]: {{ "" | absolute_url }}{% post_url apim/2017/04/2017-04-05-interconnect-2017 %}
 
+## Actualización 2017/04/12
 
+IBM ha actualizado el [enlace](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.overview.doc/overview_whatsnew.html) con las novedades de la versión 5.0.7 incluyendo nuevos puntos que no estaban disponibles cuando redacté esta entrada de la bitácora. Muchos de estos nuevos puntos no tienen aún la documentación actualizada, por lo que supongo que en breve se volverá a actualizar la documentación.
+
+### *JSON Web Token (JWT) can now be used to secure your API*
+
+Hace ya varias versiones (5.0.1) que se dispone de unas políticas por defecto para [generar](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/rapim_ref_ootb_policyjwtgen.html) y [validar](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/rapim_ref_ootb_policyjwtval.html) JWT. En mi opinión no es algo bien resuelto en API Connect, ya que se intervienen claves criptográficas que no se gestionan adecuadamente. Lo suyo sería aprovechar las capacidades de Datapower para almacenar de forma segura claves. Una vez subidas a Datapower pueden ser usadas para firmar o validar, pero no pueden ser descargadas ni siquiera por un administrador, pero:
+
+* Si subimos la clave al dominio generado por API Connect, se borrará cada vez que se regenere el dominio y tendremos una perdida de servicio. Y creeme que hay muchas situaciones en que se regenerará. Por ejemplo, después de una desincronización por un problema de red.
+* Podemos subirla al directorio *shared* compartido entre los distintos dominios de Datapower. Esto sería válido si usaramos la Datapower sólo para ese dominio de API Connect, pero no sería seguro si en la misma Datapower tenemos otros API Gateways u otros dominios de Datapower, los cuales no deberían tener acceso a mis claves.
+* Podemos incrustarla en la política, de modo que cada vez que se regenere el dominio, el API Manager la incluya junto al resto de la configuración del dominio y al desplegarse se almacene de forma segura en Datapower. Pero eso supone tener la clave expuesta dentro del API Manager y no solo bien protegida en Datapower. Cualquier usuario con privilegios del API Manager puede descargarse la política junto a la clave.
+
+En cualquier caso parece que hay avances en la capacidad de uso de JWT para proteger tus APIs. Lástima que el [enlace](https://www.ibm.com/support/knowledgecenter/SSMNED_5.0.0/com.ibm.apic.toolkit.doc/tapic_jwt_secure.html) que proporciona IBM en el listado de novedades ¡NO FUNCIONA! y no sepamos de que se trata.
+
+### OAuth shared secret can be provided by the end user, or randomly generated
+
+Otra "mejora" que IBM olvida documentar, esta vez ni siquiera aparece el enlace. ¿a qué se referirán?
+
+### OAuth integration with third-party providers
+
+¡Esta es buena! Y algo muy necesario. El enlace en la documentación está mal, pero yo diría:
+
+* Va a ser una primera entrega. Para tener integración completa con APIs de terceros son necesarios muchos cambios
+* Esta primera versión va a estar limitada a integrarse con Ping Federate y otros servicios muy abiertos que sean capaces de aceptar "client_id" externos. Para el caso contrario y que sea API Connect el que acepte el "client_id" del *Auth Server* externo, son necesarios muchos cambios y no creo que IBM de esta posibilidad de salida.
+
+A ver si publican la documentación y vemos que tal esta integración y si llega al nivel de la de WSO2, que para mi es la referencia en gestores de APIs integrándose con servidores de autorización externos
