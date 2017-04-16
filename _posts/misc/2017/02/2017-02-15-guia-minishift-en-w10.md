@@ -1,5 +1,6 @@
 ---
 title: "Guia instalación minishift en Windows 10"
+modified: 2017-04-16
 categories:
   - misc
 tags:
@@ -101,3 +102,7 @@ oc expose svc/nodejs-ex
 ```
 
 [probando-minishift-post]: {{ "" | absolute_url }}{% post_url misc/2017/02/2017-02-10-probando-minishift %}
+
+## Actualizo 16/04/2017
+
+Parece que minishift tiene [problemas](https://github.com/minishift/minishift/issues/343) derivados de las limitaciones de red de HyperV. Ya no me gustaba que la VM estuviese asociada a un adaptador de red concreto (wifi o físico), encima cada vez que cambia la IP deja de funcionar. En una red casera tampoco es que vaya a cambiar mucho (seguramente solo si cambiamos de router), pero si que es un fastidio para demos que preparas en una red y luego no te funcionan al llevarla a otro.
