@@ -9,6 +9,6 @@ author_profile: false
 
 ¡Esto si que es elegir tu propia aventura! Has ido a ducharte y se te ha acabado el Gel. Miras los botes de tu mujer.
 
- [![Santa's Christmas LUSH](https://pbs.twimg.com/media/DRZjLH6WsAAZO2Y.jpg:small)](/john-carca/lush)
- [![Chilly](https://pbs.twimg.com/media/DRZj24iWsAAlTXb.jpg:small)](/john-carca/chilly)
- [![Pastillas sospechosas](https://pbs.twimg.com/media/DRZkWsPX4AA5x3Z.jpg:small)](/john-carca/pastillas)
+ [![Santa's Christmas LUSH](https://pbs.twimg.com/media/DRZjLH6WsAAZO2Y.jpg:small)]({{ "/john-carca/lush" | relative_url }})
+ [![Chilly](https://pbs.twimg.com/media/DRZj24iWsAAlTXb.jpg:small)]({{ "/john-carca/chilly" | relative_url }})
+ [![Pastillas sospechosas](https://pbs.twimg.com/media/DRZkWsPX4AA5x3Z.jpg:small)]({{ "/john-carca/pastillas" | relative_url }})

@@ -9,4 +9,4 @@ author_profile: false
 
 Gracias Dado :thumbsup: No entiendo ni tu puto nombre
 
- [![Se acerca el fin](https://pbs.twimg.com/media/DRZjasJX4AAoiDC.jpg:small)](/john-carca/se-acerca-el-fin)
+ [![Se acerca el fin](https://pbs.twimg.com/media/DRZjasJX4AAoiDC.jpg:small)]( {{ "/john-carca/se-acerca-el-fin" | relative_url }})

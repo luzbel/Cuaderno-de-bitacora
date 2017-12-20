@@ -9,6 +9,6 @@ author_profile: false
 
 No tienes claro lo de Crema. Es como el gel o es de estas cosas para después de la ducha?
 
-[Como eres idiota, miras las instrucciones](/john-carca/instrucciones){: .btn .btn--info}
-[Chilly](/john-carca/chilly){: .btn .btn--danger}
-[Pastillas sospechosas](/john-carca/pastillas){: .btn .btn--danger}
+[Como eres idiota, miras las instrucciones]({{ "/john-carca/instrucciones" | relative_url }} ){: .btn .btn--info}
+[Chilly]({{ "/john-carca/chilly" | relative_url }}){: .btn .btn--danger}
+[Pastillas sospechosas]({{ "/john-carca/pastillas" | relative_url }}){: .btn .btn--danger}

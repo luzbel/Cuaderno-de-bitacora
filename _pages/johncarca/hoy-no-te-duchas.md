@@ -9,4 +9,4 @@ author_profile: false
 
 Esta elección no es propia de John Carca. Deja de cargarte la diversión y elige ducharte y no comportarte como un usuario del transporte público.
 
-[Vas a ducharte](/john-carca/vas-a-ducharte){: .btn .btn--info}
+[Vas a ducharte]({{ "/john-carca/vas-a-ducharte" | relative_url }}){: .btn .btn--info}

@@ -9,5 +9,5 @@ author_profile: false
 
 Eres John Carca, odias los videojuegos. Te gustan el vino y las mujeres. Eres analista, estadista, plusmarquista. **ERES ILUSTRE**.
 
-[Hoy no te duchas](/john-carca/hoy-no-te-duchas){: .btn .btn--danger}
-[Vas a ducharte](/john-carca/vas-a-ducharte){: .btn .btn--info}
+[Hoy no te duchas]({{ "/john-carca/hoy-no-te-duchas" | relative_url }}){: .btn .btn--danger}
+[Vas a ducharte]( {{ "/john-carca/vas-a-ducharte" | relative_url }} ){: .btn .btn--info}
