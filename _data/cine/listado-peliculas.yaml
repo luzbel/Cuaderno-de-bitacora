@@ -1,3 +1,23 @@
+- nombre: 'La llamada'
+  anyo: 2017
+  mes: 10
+  plataforma: NetFlix
+- nombre: 'Blade Runner 2049'
+  anyo: 2018
+  mes: 1
+  plataforma: Wuaki
+- nombre: 'La torre oscura'
+  anyo: 2018
+  mes: 1
+  plataforma: Wuaki
+- nombre: 'El renacido'
+  anyo: 2018
+  mes: 1
+  plataforma: Wuaki
+- nombre: 'Wonder Woman'
+  anyo: 2017
+  mes: 11
+  plataforma: Wuaki
 - nombre: 'Your name'
   anyo: 2017
   mes: 10
