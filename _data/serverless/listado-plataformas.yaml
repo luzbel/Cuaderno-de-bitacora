@@ -25,3 +25,6 @@
 - nombre: Azure Functions
   url: https://functions.azure.com
   descripcion: Eventos de proceso con una arquitectura de código sin servidor
+- nombre: StdLib
+  url: https://stdlib.com
+  descripcion: Function as a Service Software Library
