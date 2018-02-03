@@ -1,6 +1,10 @@
+- nombre: 'Death Note'
+  anyo: 2018
+  mes: 2
+  plataforma: NetFlix
 - nombre: 'La llamada'
-  anyo: 2017
-  mes: 10
+  anyo: 2018
+  mes: 1
   plataforma: NetFlix
 - nombre: 'Blade Runner 2049'
   anyo: 2018
