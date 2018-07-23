@@ -22,6 +22,10 @@
   anyo: 2018
   mes: 6
   plataforma: Wuaki
+- nombre: 'Cazafantasmas (2016)'
+  anyo: 2018
+  mes: 6
+  plataforma: Netflix
 - nombre: 'Thor: La guerra del planeta de los simios'
   anyo: 2018
   mes: 5
@@ -41,6 +45,18 @@
 - nombre: 'Brazil'
   anyo: 2018
   mes: 4
+  plataforma: Netflix
+- nombre: 'Ha vuelto'
+  anyo: 2018
+  mes: 3
+  plataforma: Netflix
+- nombre: 'Encubiertos: agentes tras las líneas enemigas'
+  anyo: 2018
+  mes: 3
+  plataforma: Netflix
+- nombre: 'Toro'
+  anyo: 2018
+  mes: 3
   plataforma: Netflix
 - nombre: 'Camino a la perdición'
   anyo: 2018
