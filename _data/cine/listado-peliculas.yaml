@@ -2,7 +2,31 @@
   anyo: 2019
   mes: 4
   plataforma: Wuaki
+- nombre: 'El niño 44'
+  anyo: 2019
+  mes: 2
+  plataforma: Netflix
+- nombre: 'La joven del agua'
+  anyo: 2019
+  mes: 2
+  plataforma: Wuaki
+- nombre: 'Múltiple'
+  anyo: 2019
+  mes: 2
+  plataforma: Netflix  
+- nombre: 'Venom'
+  anyo: 2019
+  mes: 1
+  plataforma: Wuaki
 - nombre: 'La Bella y la Bestia (2017)'
+  anyo: 2019
+  mes: 1
+  plataforma: Netflix
+- nombre: 'Akira'
+  anyo: 2019
+  mes: 1
+  plataforma: Netflix
+- nombre: 'Roma'
   anyo: 2019
   mes: 1
   plataforma: Netflix
