@@ -1,8 +1,20 @@
+- nombre: 'Orígenes secretos'
+  anyo: 2020
+  mes: 10
+  plataforma: Netflix
+- nombre: 'Megalodón'
+  anyo: 2020
+  mes: 8
+  plataforma: Netflix
+- nombre: 'La cosa (The Thing)'
+  anyo: 2020
+  mes: 5
+  plataforma: Netflix
 - nombre: 'Los siete magníficos! (2016)'
   anyo: 2020
   mes: 5
   plataforma: Prime
-- nombre: '	Jurassic Park (Parque Jurásico)'
+- nombre: 'Jurassic Park (Parque Jurásico)'
   anyo: 2020
   mes: 5
   plataforma: Netflix
