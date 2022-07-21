@@ -4,8 +4,8 @@ layout: single
 permalink: /astronomia/galeria-prueba-primeras-imagenes.html
 
 gallery:
-  - url: /assets/images/telescopio/20220402/planeta-con-orejas.bmp
-    image_path: /assets/images/telescopio/20220402/planeta-con-orejas.bmp
+  - url: /assets/images/telescopio/20220402/planeta_con_orejas.bmp
+    image_path: /assets/images/telescopio/20220402/planeta_con_orejas.bmp
     alt: "Planeta con orejas 20220402"
     title: "Planeta con orejas 20220402"
 
@@ -44,10 +44,10 @@ gallery:
     alt: "No sé si mejor Marte que el anterior 20220626"
     title: "No sé si mejor Marte que el anterior 20220626"
 
-  - url: /assets/images/telescopio/20220728/Jup/Jup_051617_pipp_lapl5_ap27.bmp
-    image_path: /assets/images/telescopio/20220728/Jup/Jup_051617_pipp_lapl5_ap27.bmp
-    alt: "Jupiter y ¿Ganimedes? 20220728"
-    title: "Jupiter y ¿Ganimedes? 20220728"
+  - url: /assets/images/telescopio/20220708/Jup/Jup_051617_pipp_lapl5_ap27.bmp
+    image_path: /assets/images/telescopio/20220708/Jup/Jup_051617_pipp_lapl5_ap27.bmp
+    alt: "Jupiter y ¿Ganimedes? 20220708"
+    title: "Jupiter y ¿Ganimedes? 20220708"
 
 
 ---
