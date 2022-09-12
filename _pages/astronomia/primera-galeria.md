@@ -54,6 +54,11 @@ gallery:
     alt: "Jupiter 20220910 captada con el baffle del secundario desprendido"
     title: "Jupiter 20220910 captada con el baffle del secundario desprendido"
 
+  - url: /assets/images/telescopio/20220910/Sat/Sat_032359_pipp_lapl5_ap20.bmp
+    image_path: /assets/images/telescopio/20220910/Sat/Sat_032359_pipp_lapl5_ap20.bmp
+    alt: "Saturno 20220910 captada con el baffle del secundario desprendido"
+    title: "Saturno 20220910 captada con el baffle del secundario desprendido"
+
 
 ---
 
