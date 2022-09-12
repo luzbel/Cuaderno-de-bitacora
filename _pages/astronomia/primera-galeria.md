@@ -49,6 +49,11 @@ gallery:
     alt: "Jupiter y ¿Ganimedes? 20220708"
     title: "Jupiter y ¿Ganimedes? 20220708"
 
+  - url: /assets/images/telescopio/20220910/Jup/Jup_033301_pipp_lapl5_ap49.bmp
+    image_path: /assets/images/telescopio/20220910/Jup/Jup_033301_pipp_lapl5_ap49.bmp
+    alt: "Jupiter 20220910 captada con el baffle del secundario desprendido"
+    title: "Jupiter 20220910 captada con el baffle del secundario desprendido"
+
 
 ---
 
